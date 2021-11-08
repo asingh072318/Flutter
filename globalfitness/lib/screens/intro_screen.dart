@@ -1,6 +1,7 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
+import 'package:globalfitness/shared/menu_drawer.dart';
 
 class IntroScreen extends StatelessWidget {
   const IntroScreen({Key? key}) : super(key: key);
@@ -11,6 +12,7 @@ class IntroScreen extends StatelessWidget {
       appBar: AppBar(
         title: Text('GlobalFitness'),
       ),
+      drawer: MenuDrawer(),
       body: Container(
           decoration: BoxDecoration(
               image: DecorationImage(
