@@ -10,7 +10,7 @@ class IntroScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('GlobalFitness'),
+        title: Text('Global Fitness'),
       ),
       drawer: MenuDrawer(),
       body: Container(
